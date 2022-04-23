@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="보안">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_notic"
+            android:summary="통지수신"
+            android:title="Direct Chat 통지 여부" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="회원">
+
+        <Preference
+            android:key="logout_preference"
+            android:title="로그아웃(Logout)" />
+
+        <Preference
+            android:key="withdrawal_preference"
+            android:title="회원 탈퇴" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

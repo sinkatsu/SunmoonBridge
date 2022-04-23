@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sinUpToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        android:background="#FFFFFF"
+        app:title="Sign up"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/signUpEmail"
+            android:layout_width="311dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:hint="Enter Email"
+            android:elevation="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bg"
+            android:inputType="textEmailAddress"
+            android:autofillHints="no"/>
+        <EditText
+            android:id="@+id/signUppassword"
+            android:layout_width="311dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:elevation="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bg"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:autofillHints="no"/>
+
+        <EditText
+            android:id="@+id/signUpConfirmpassword"
+            android:layout_width="311dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:elevation="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bg"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:autofillHints="no"/>
+
+        <EditText
+            android:id="@+id/signUpNickName"
+            android:layout_width="311dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:elevation="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bg"
+            android:hint="Nick Name"
+            android:inputType="text"
+            android:autofillHints="no"/>
+
+        <Button
+            android:id="@+id/SignUpButton"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="311dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Sign Up"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/already_have_acount"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/singInPage"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#FC4041"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/signUpProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

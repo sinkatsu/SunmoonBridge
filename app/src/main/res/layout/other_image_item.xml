@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_marginbox"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/tv_marginbox"
+        android:text="Nickname"
+        android:textColor="#333333" />
+
+    <ImageView
+        android:id="@+id/iv_imgbox"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tv_nick"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/tv_marginbox"
+        android:background="#FFEB3B"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_imgbox"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:layout_toEndOf="@+id/iv_imgbox"
+        android:layout_toRightOf="@+id/iv_imgbox"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_imgbox"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="162dp"
+        android:layout_toEndOf="@+id/iv_imgbox"
+        android:layout_toRightOf="@+id/iv_imgbox"
+        android:text="TextView" />
+
+</RelativeLayout>

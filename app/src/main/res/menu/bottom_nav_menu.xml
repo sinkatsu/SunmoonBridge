@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_trade"
+        android:icon="@drawable/ic_trade_nav_24"
+        android:title="@string/title_trade" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help_request_brack_24dp"
+        android:title="@string/title_help" />
+
+    <item
+        android:id="@+id/navigation_knowledge"
+        android:icon="@drawable/ic_know_black_24dp"
+        android:title="@string/title_knowledge" />
+
+    <item
+        android:id="@+id/navigation_direct_message"
+        android:icon="@drawable/ic_chat_bubble_24"
+        android:title="@string/title_direct_Message" />
+
+</menu>

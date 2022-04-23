@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.btnavigationtemplate.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/main_home_fragment" />
+
+    <fragment
+        android:id="@+id/tradeFragment"
+        android:name="com.example.btnavigationtemplate.ui.Trade.TradeFragment"
+        android:label="@string/title_trade"
+        tools:layout="@layout/main_trade_fragment" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.btnavigationtemplate.ui.Help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/main_help_fragment" />
+
+    <fragment
+        android:id="@+id/knowledgeFragment"
+        android:name="com.example.btnavigationtemplate.ui.KnowledgeFragment.KnowledgeFragment"
+        android:label="@string/title_knowledge"
+        tools:layout="@layout/main_knowledge_fragment" />
+
+    <fragment
+        android:id="@+id/directChatFragment"
+        android:name="com.example.btnavigationtemplate.ui.DirectChat.DirectChatFragment"
+        android:label="@string/title_direct_Message"
+        tools:layout="@layout/main_direct_chat_fragment" />
+
+</navigation>

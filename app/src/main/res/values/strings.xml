@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">sunmoonbridge</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_help" translatable="false">Help/Request</string>
+    <string name="title_trade" translatable="false">trade</string>
+    <string name="title_knowledge" translatable="false">Knowledge</string>
+    <string name="title_direct_Message" translatable="false">DC</string>
+
+    <string name="confirm_password" translatable="false">Password again</string>
+    <string name="already_have_acount" translatable="false">Already have acount ?</string>
+    <string name="sign_up" translatable="false">Sign UP</string>
+    <string name="haven_t_account" translatable="false">Haven\'t account ?</string>
+    <string name="forget_pass" translatable="false">Forget Password ?</string>
+    <string name="sign_out" translatable="false">sign out</string>
+    <string name="nickname" translatable="false">Nickname</string>
+    <string name="special_skill" translatable="false">Special Skill</string>
+
+    <string-array name="Grade">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="Grade_Number">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string name="mypage_tv_nickname" translatable="false"><u>닉내임</u></string>
+    <string name="mypage_tv_major" translatable="false"><u>전공</u></string>
+    <string name="mypage_tv_Student_Number" translatable="false"><u>학번</u></string>
+    <string name="mypage_tv_contury" translatable="false"><u>국가</u></string>
+    <string name="mypage_tv_specialty" translatable="false"><u>특기</u></string>
+    <string name="mypage_tv_comment" translatable="false"><u>자기소개</u></string>
+
+    <string name="default_notification_channel_id" translatable="false">notificationChannel</string>
+
+    <string-array name="spinner_array">
+        <item>All</item>
+        <item><font color="#2196F3">Give</font></item>
+        <item><font color="#F44336">Take</font></item>
+        <item>My Post</item>
+    </string-array>
+
+    <string-array name="spinner_array_know">
+        <item>All</item>
+        <item>My Post</item>
+    </string-array>
+
+    <string name="welcome_en" translatable="false">Welcome!</string>
+    <string name="welcome_kr" translatable="false">안녕하세요!</string>
+    <string name="welcome_jp" translatable="false">ようこそ!</string>
+    <string name="explanation" translatable="false"><font color="red">&lt; Purpose / 목적 / 目的 &gt;</font></string>
+    <string name="purpose_en" translatable="false">
+        This application is mainly designed to exchange information of international students living in the dormitory of Sunmoon University.
+    </string>
+    <string name="purpose_kr" translatable="false">
+        이 어플리케이션은 주로 선문대 기숙사에 거주하고 있는 유학생의 정보교환을 위해 만들어졌습니다.
+    </string>
+    <string name="purpose_jp" translatable="false">
+        このアプリケーションは、主に鮮文大学の寄宿舎に居住している留学生の情報交換のために作成されました。
+    </string>
+
+    <string name="features" translatable="false"><font color="red">&lt; Main Features / 주 기능 / メイン機能 &gt;</font></string>
+    <string name="features_en" translatable="false">
+        You can send and receive 3 kinds of information in this application.
+    </string>
+    <string name="features_kr" translatable="false">
+        이 어플리게이션에서는 주로 3가지의 정보를 주고 받을 수 있습니다.
+    </string>
+    <string name="features_jp" translatable="false">
+        このアプリケーションでは主に、3つの情報をやり取りできます。
+    </string>
+
+    <string name="trade_e" translatable="false"><font color="blue">1.Trade / 물품 교환 / トレード</font></string>
+    <string name="trade_en" translatable="false">
+        This category is mainly for requests for items needed in dormitory life, or It\'s a place to give unnecessary items to someone.
+    </string>
+    <string name="trade_kr" translatable="false">
+        이 항목은 주로 기숙사 생활에서 필요한 물품을 요청하거나 필요없는 물품을 누군가에게 주기 위한 장소 입니다.
+    </string>
+    <string name="trade_jp" translatable="false">
+        この項目は寄宿舎生活において誰かに必要な物品を要請したり必要ない物品を誰かにあげるための場所です。
+    </string>
+
+    <string name="help_e" translatable="false"><font color="blue">2. Help/Help Request / 도움 요청 / 助けを求める</font></string>
+    <string name="help_en" translatable="false">
+        This category you send information when you want to get help or help.
+    </string>
+    <string name="help_kr" translatable="false">
+        이 항목은 도움을 받고 싶거나 도움을 주고 싶을 때 정보를 발신하는 장소 입니다.
+    </string>
+    <string name="help_jp" translatable="false">
+        この項目は助けを借りたい時や助けを求める時に情報を発信する場所です。
+    </string>
+
+    <string name="know_e" translatable="false"><font color="blue">3. Knowledge / 지식 / 豆知識</font></string>
+    <string name="know_en" translatable="false">
+        This category is a place where you share the knowledge you want to know in your life.
+    </string>
+    <string name="know_kr" translatable="false">
+        이 항목은 생활하는데에 있어서 알고 싶은 지식은 공유하는 장소입니다.
+    </string>
+    <string name="know_jp" translatable="false">
+        この項目は生活において知りたい知識を共有する場所です。
+    </string>
+
+    <string name="features_c" translatable="false"><font color="red">&lt; Chat Features / 채팅 기능 / チャット機能 &gt;</font></string>
+    <string name="features_c_en" translatable="false">
+        This function allows you to send and receive messages or photos with the other person 1:1
+    </string>
+    <string name="features_c_kr" translatable="false">
+        이 기능은 상대방과 1:1로 메시지나 사진을 주고 받을 수 있습니다.
+    </string>
+    <string name="features_c_jp" translatable="false">
+        この機能は、相手と1:1でメッセージや写真をやり取りすることができます。
+    </string>
+
+    <string name="features_p" translatable="false"><font color="red">&lt; Profile Features / 프로필 기능 / プロフィール機能 &gt;</font></string>
+    <string name="features_p_en" translatable="false">
+        This feature allows you to view profiles in your own or status room and edit your profile.
+    </string>
+    <string name="features_p_kr" translatable="false">
+        이 기능은 자신이나 상태방의 프로필을 관람할 수 있고 자신의 프로필은 편집할 수 있습니다.
+    </string>
+    <string name="features_p_jp" translatable="false">
+        この機能は自分や相手のプロフィールを見ることができ、自分のプロフィールは編集できます。
+    </string>
+
+    <string name="thanks_en" translatable="false">
+        Thank you for reading this far.
+        That\'s all for a brief description of the function!<br/>
+        This app was created by an inexperienced student, but I hope it will be helpful.
+    </string>
+    <string name="thanks_kr" translatable="false">
+        여기까지 읽어주어서 고마워요.
+        간단한 기능 설명 이상입니다! 미숙한 학생이 만든 어플이지만 도움이 되었다면 좋겠습니다..
+    </string>
+    <string name="thanks_jp" translatable="false">
+        ここまで読んでくれてありがとうございます。
+        簡単な機能説明は以上です! 未熟な学生が作ったアプリですがお役に立てれば幸いです。
+    </string>
+
+    <string name="made_by" translatable="false">
+        Made by team SunMoon Bridge.
+    </string>
+</resources>
